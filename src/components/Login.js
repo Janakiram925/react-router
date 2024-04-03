@@ -11,6 +11,8 @@ function Login() {
 
     const handlelogin = () => {
         auth.login(user)
+        // replace -  when after login when we click back button we will get login page again
+        // to avoid this we use replace true
         navigate(redirectPath, {replace: true})
     }
 

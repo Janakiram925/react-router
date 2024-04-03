@@ -32,6 +32,9 @@ import ClickCounter from './components/prac/HOCExample/ClickCounter';
 import HoverCounter from './components/prac/HOCExample/HoverCounter';
 import ParentComponent from './components/prac/UseCallBack/ParentComponent';
 import ActionAfterStateUpdate from './components/prac/ActionAfterStateUpdate';
+import TaskForm from './components/Task-Management-app/TaskForm';
+import Airlines from './components/Valuelabs-task/Airlines';
+import Data from './Task/Data.js';
 //Dynamic Routes -- userDetails
 //searchParams -- users.js
 
@@ -65,7 +68,7 @@ function App() {
       <DropDowns /> */}
       {/* <DemoUseCallback />
       <EmptyDepUsecallBack /> */}
-      <AddToList />
+      {/* <AddToList />
       <StopWatch />
       <DataProvider value={'data from context'}>
         <Parent />
@@ -74,6 +77,10 @@ function App() {
       <HoverCounter />
       <ParentComponent />
       <ActionAfterStateUpdate />
+      <TaskForm />
+      <Airlines /> */}
+      <Data />
+
       
     </AuthProvider>
   );
